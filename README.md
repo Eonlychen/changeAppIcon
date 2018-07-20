@@ -2,6 +2,7 @@
 动态修改appLOGO 主要需要将本地的图片的name配置在info.plist中，
 
 拷贝：
+
  <key>CFBundleIcons</key>
  
     <dict>
