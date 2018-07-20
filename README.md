@@ -3,25 +3,30 @@
 
 拷贝：
  <key>CFBundleIcons</key>
+ 
     <dict>
+    
         <key>CFBundleAlternateIcons</key>
+        
         <dict>
+        
             <key>appicon1</key>
+            
             <dict>
+            
                 <key>CFBundleIconFiles</key>
+                
                 <array>
+                
                     <string>appicon1</string>
+                    
                 </array>
+                
                 <key>UIPrerenderedIcon</key>
+                
                 <false/>
+                
             </dict>
-            <key>appicon2</key>
-            <dict>
-                <key>CFBundleIconFiles</key>
-                <array>
-                    <string>appicon2</string>
-                </array>
-                <key>UIPrerenderedIcon</key>
-                <false/>
-            </dict>
-          。。。。。。。。。。
+            
+          
+      #    。。。。。。。。。。
