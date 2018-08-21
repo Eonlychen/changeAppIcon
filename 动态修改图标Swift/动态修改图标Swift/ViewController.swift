@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         var tableView = UITableView(frame: view.frame)
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return tableView
     }()
     
@@ -58,10 +59,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         return 31
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
-        if cell == nil {
-            cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = String(indexPath.row+1)
        return cell
     }
