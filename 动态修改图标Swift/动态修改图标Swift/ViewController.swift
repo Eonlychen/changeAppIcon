@@ -74,12 +74,12 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-//        changeAPPIcon(iconName: "appicon"+String(indexPath.row+1))
+        changeAPPIcon(iconName: "appicon"+String(indexPath.row+1))
         
         /**
          * 测试别种情况alert；
          */
-        alert()
+//        alert()
     }
     
     
