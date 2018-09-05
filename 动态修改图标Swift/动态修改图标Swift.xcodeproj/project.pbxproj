@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		328A5690214002C6000A54B1 /* UIViewController+DeleteIconAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A568F214002C6000A54B1 /* UIViewController+DeleteIconAlert.m */; };
 		329963E1210095A200213BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329963E0210095A200213BAF /* AppDelegate.swift */; };
 		329963E3210095A200213BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329963E2210095A200213BAF /* ViewController.swift */; };
 		329963E6210095A200213BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329963E4210095A200213BAF /* Main.storyboard */; };
@@ -78,6 +79,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		328A568E214002C6000A54B1 /* UIViewController+DeleteIconAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DeleteIconAlert.h"; sourceTree = "<group>"; };
+		328A568F214002C6000A54B1 /* UIViewController+DeleteIconAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DeleteIconAlert.m"; sourceTree = "<group>"; };
 		329963DD210095A200213BAF /* 动态修改图标Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动态修改图标Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		329963E0210095A200213BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		329963E2210095A200213BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 				329963E2210095A200213BAF /* ViewController.swift */,
 				3299647021017A0000213BAF /* NSDate+Day.h */,
 				3299647121017A0000213BAF /* NSDate+Day.m */,
+				328A568E214002C6000A54B1 /* UIViewController+DeleteIconAlert.h */,
+				328A568F214002C6000A54B1 /* UIViewController+DeleteIconAlert.m */,
 				329963E4210095A200213BAF /* Main.storyboard */,
 				329963E7210095A200213BAF /* Assets.xcassets */,
 				329963E9210095A200213BAF /* LaunchScreen.storyboard */,
@@ -400,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				329963E3210095A200213BAF /* ViewController.swift in Sources */,
+				328A5690214002C6000A54B1 /* UIViewController+DeleteIconAlert.m in Sources */,
 				3299647221017A0000213BAF /* NSDate+Day.m in Sources */,
 				329963E1210095A200213BAF /* AppDelegate.swift in Sources */,
 			);

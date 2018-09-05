@@ -33,7 +33,15 @@ class ViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return tableView
     }()
-    
+
+    /**
+     * 测试
+     */
+    func alert() {
+        let alert = UIAlertController.init(title: "测试", message: "message", preferredStyle: .alert);
+        alert.addAction(UIAlertAction.init(title: "确定", style: .default, handler: nil));
+        self.present(alert, animated: true, completion: nil);
+    }
     @available(iOS 10.3, *)
     func changeAPPIcon(iconName: String) {
         if !UIApplication.shared.supportsAlternateIcons {
@@ -66,9 +74,16 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+//        changeAPPIcon(iconName: "appicon"+String(indexPath.row+1))
         
-        changeAPPIcon(iconName: "appicon"+String(indexPath.row+1))
+        /**
+         * 测试别种情况alert；
+         */
+        alert()
     }
     
     
 }
+
+
+
